@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-brand-primary: #9E6E4F;
+  --color-brand-charcoal: #28231F;
+  --color-brand-charcoal-light: #3E3630;
+  --color-brand-cream: #F7F3EC;
+  --color-brand-border: #DFD5C8;
+  --color-brand-text: #28231F;
+  --color-brand-muted: #786D65;
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+/* Custom smooth scroll and scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DFD5C8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9E6E4F;
+}
+
+/* Tabular numbers for all financial figures & quantities */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
